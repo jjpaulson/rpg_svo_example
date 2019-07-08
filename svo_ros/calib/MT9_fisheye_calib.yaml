@@ -1,0 +1,29 @@
+cameras:
+- camera:
+    distortion:
+      parameters:
+        cols: 1
+        rows: 0
+        data: []
+      type: none
+    image_height: 480
+    image_width: 640
+    intrinsics:
+      cols: 1
+      rows: 24
+      data: [-262.5746, 0.0, 0.001469072, -1.116073e-06, 4.776301e-09, 372.640076,
+        265.227292, 0.99866, -0.00069, -0.001031, 387.062321, 221.966883, -0.135707,
+        25.376261, -10.440274, -38.01924, -23.070299, -4.527273, 0.0, 0.0, 0.0, 0.0,
+        0.0, 0.0]
+    label: cam0
+    line-delay-nanoseconds: 0
+    type: omni
+    mask: arducam_fisheye_mask.png
+  T_B_C:
+    cols: 4
+    rows: 4
+    data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
+      1.0]
+  serial_no: 0
+  calib_date: 08/07/2019
+label: /home/Documents/docker_shared_files/calib_results.txt
