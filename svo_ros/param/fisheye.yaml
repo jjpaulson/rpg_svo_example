@@ -2,6 +2,8 @@ max_fts: 180
 grid_size: 25
 map_scale: 5
 
+automatic_reinitialization: True
+
 kfselect_criterion: FORWARD
 kfselect_numkfs_upper_thresh: 120
 kfselect_numkfs_lower_thresh: 40
