@@ -1,6 +1,6 @@
 max_fts: 180
 grid_size: 25
-map_scale: 5
+map_scale: 2.0
 
 automatic_reinitialization: True
 
